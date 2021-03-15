@@ -34,5 +34,7 @@ List* ListResverse()
   Per = pMark;
   pMark = Next
   }
+  return Per;
+  }
 };
 
