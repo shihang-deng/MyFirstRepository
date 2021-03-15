@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+
+typedef struct NODE
+{
+int num;
+struct NODE* pNext;
+}List;
+
+class CLinkedListResverse
+{
+private:
+List* m_nHead;
+
+public:
+LinkedListResverse(): pHead(NULL)
+{
+
+}
+ListSetHead(List* Head)
+{
+m_nHead = Head;
+}
+
+List* ListResverse()
+{
+  List* Next = NULL;
+  List* Per = NULL;
+  List* pMark = m_nHead;
+  while(pMark)
+  {
+  Next = pMark->pNext;
+  pMark = Per;
+  Per = pMark;
+  pMark = Next
+  }
+};
+
